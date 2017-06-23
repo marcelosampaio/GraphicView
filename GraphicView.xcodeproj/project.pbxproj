@@ -13,6 +13,7 @@
 		9D1890B71EFD9957005F4E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1890B51EFD9957005F4E3B /* Main.storyboard */; };
 		9D1890B91EFD9957005F4E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1890B81EFD9957005F4E3B /* Assets.xcassets */; };
 		9D1890BC1EFD9957005F4E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1890BA1EFD9957005F4E3B /* LaunchScreen.storyboard */; };
+		9D264BD21EFD99C300472EDA /* BBUGraphicOurocard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D264BD11EFD99C300472EDA /* BBUGraphicOurocard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9D1890B81EFD9957005F4E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D1890BB1EFD9957005F4E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D1890BD1EFD9957005F4E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D264BD01EFD99C300472EDA /* BBUGraphicOurocard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBUGraphicOurocard.h; path = GraphicOurocard/BBUGraphicOurocard.h; sourceTree = "<group>"; };
+		9D264BD11EFD99C300472EDA /* BBUGraphicOurocard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBUGraphicOurocard.m; path = GraphicOurocard/BBUGraphicOurocard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		9D1890AB1EFD9957005F4E3B /* GraphicView */ = {
 			isa = PBXGroup;
 			children = (
+				9D264BCF1EFD999500472EDA /* GraphicOurocard */,
 				9D1890AF1EFD9957005F4E3B /* AppDelegate.h */,
 				9D1890B01EFD9957005F4E3B /* AppDelegate.m */,
 				9D1890B21EFD9957005F4E3B /* ViewController.h */,
@@ -77,6 +81,15 @@
 				9D1890AD1EFD9957005F4E3B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D264BCF1EFD999500472EDA /* GraphicOurocard */ = {
+			isa = PBXGroup;
+			children = (
+				9D264BD01EFD99C300472EDA /* BBUGraphicOurocard.h */,
+				9D264BD11EFD99C300472EDA /* BBUGraphicOurocard.m */,
+			);
+			name = GraphicOurocard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D1890B41EFD9957005F4E3B /* ViewController.m in Sources */,
+				9D264BD21EFD99C300472EDA /* BBUGraphicOurocard.m in Sources */,
 				9D1890B11EFD9957005F4E3B /* AppDelegate.m in Sources */,
 				9D1890AE1EFD9957005F4E3B /* main.m in Sources */,
 			);
@@ -309,6 +323,7 @@
 				9D1890C21EFD9957005F4E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

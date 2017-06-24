@@ -34,6 +34,7 @@
     [valuePath addLineToPoint:CGPointMake(widthValue, (rect.size.height - heightValue) - ((rect.size.height - heightValue) ))];
     [valuePath closePath];
     [valuePath fill];
+    
 }
 
 @end

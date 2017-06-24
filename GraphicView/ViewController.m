@@ -21,8 +21,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _graphicView.value = 20;
+    BBUGraphicOurocard *innerView = [[BBUGraphicOurocard alloc]initWithFrame:CGRectMake(100, 120, 200, 30)];
+    innerView.value = 87.5f;
+    innerView.maxValue = 100;
+    innerView.gaugeColor = [UIColor orangeColor];
+    innerView.gaugeBackgroundColor = [UIColor darkGrayColor];
+    [self.view addSubview:innerView];
+    
+    
+    
+    _graphicView.value = 75;
     _graphicView.maxValue = 100;
+    _graphicView.gaugeColor = [UIColor orangeColor];
+    _graphicView.gaugeBackgroundColor = [UIColor darkGrayColor];
     
 }
 
